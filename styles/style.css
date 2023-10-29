@@ -137,16 +137,39 @@ nav a {
 
     overflow: hidden;
     position: relative;
+    margin-bottom: 100px;
+} 
+ #secondRow {
+    display: flex;
+    justify-content:space-around;
+
+    overflow: hidden;
+    position: relative;
 }
 .image-gallery img{
     width: 300px;
     transition: transform 0.5s;
     
 }
-#contact{
-    background-color: #000000;
+#secondRow img{
+    width: 400px;
+    transition: transform 0.5s;
+    
 }
 
-#contact ul li{
-    margin-bottom: 20px;
+
+#contact{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+}
+.contact{
+    display: flex;
+    margin: 0 60px;
+   
+}
+
+.contact a{
+    text-decoration: none;
+    color:#fff;
 }

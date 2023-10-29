@@ -118,18 +118,29 @@ nav a {
 #pr3 {
     margin: 50px 0 50px 50px;
 }
+.works-container {
+    display: flex;
+    justify-content: space-between;
 
+    overflow: hidden;
+    position: relative;
+}
 .project img {
     max-width: 100%; 
     height: auto; 
+    transition: transform 0.5s;
 }
 
 .image-gallery {
     display: flex;
     justify-content: space-between;
+
+    overflow: hidden;
+    position: relative;
 }
 .image-gallery img{
     width: 300px;
+    transition: transform 0.5s;
     
 }
 #contact{
